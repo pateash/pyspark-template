@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pyspark-template"
+name = "pyspark_template"
 version = "0.1.0"
 description = "This is a pyspark project"
 authors = ["Ashish <ashishpatel0720@gmail.com>"]
