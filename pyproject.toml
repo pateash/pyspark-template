@@ -2,13 +2,12 @@
 name = "pyspark-template"
 version = "0.1.0"
 description = "This is a pyspark project"
-authors = ["Ashihs <ashishpatel0720@gmail.com>"]
+authors = ["Ashish <ashishpatel0720@gmail.com>"]
 readme = "README.md"
 
-
 [tool.poetry.dependencies]
-python = "^3.9.6"
-pyspark = "^3.0.0"
+python = "^3.9.16"
+pyspark = "^3.3.0"
 quinn = "^0.5.0"
 
 [tool.poetry.group.dev.dependencies]
@@ -18,3 +17,7 @@ chispa = "^0.5.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest]
+# Specify the test discovery paths (directories containing test files).
+testpaths = ["tests"]

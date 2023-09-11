@@ -1,4 +1,4 @@
-from pyspark-template import __version__
+from pyspark_template import __version__
 
 
 def test_version():

@@ -3,8 +3,8 @@ import pytest
 from pyspark.sql.types import *
 from quinn.extensions import *
 
-import pyspark-template.sparksession as S
-import pyspark-template.transformations as T
+import pyspark_template.sparksession as S
+import pyspark_template.transformations as T
 
 import chispa
 

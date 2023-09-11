@@ -1,19 +1,15 @@
-<h1>pyspark-template</h1>
+## PySpark-Template
 
-<br><br>
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-  </ol>
-</details>
-<br><br>
+### Installing dependencies
+* dependencies and everythign else is stored in `pyproject.toml` file
+* Installing the dependencies and writing lock file
+```shell
+poetry install
+```
 
-## About The Project
-
-This is a pyspark project
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+### Run Tests
+* test directory is configured in pyproject.toml
+* running all the tests
+```shell
+pytest
+```
