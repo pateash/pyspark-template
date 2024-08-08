@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.9.16"
 pyspark = "^3.3.0"
 quinn = "^0.5.0"
+python-drools-sdk="0.0.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^5.2"
